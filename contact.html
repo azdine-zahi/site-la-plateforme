@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="laplateforme.css" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="accueil.html"><img src="images/logo_laplateforme.png" alt="Logo laplateforme" /></a>
+    </header>
+
+    <main class="contact">
+        <div class="contactez-nous">
+            <h1>Remplissez ce formulaire et nous reviendrons vers vous</h1>
+            <p>Un problème, une interrogation ? N’hésitez pas à utiliser ce
+                formulaire pour prendre contact avec nous !</p>
+            <form action="/page-traitement-donnees" method="post">
+                <div>
+                    <label for="Laformation">La Formation qui vous intéresse</label>
+                    <select name="formation" id=""required>
+                        <option value="" disabled selected hidden>la formation qui vous intéresse</option>
+                        <option value="">Coding School</option>
+                        <option value="">AI School</option>
+                        <option value="">Security School</option>
+                        <option value="">Bachelor IT</option>
+                        <option value="">Développeur web-TOULON</option>
+                        <option value="">Code à la carte-TOULON</option>
+                        <option value="">Code à la carte-BRIGNOLES</option>
+                        <option value="">Executive Education</option>
+                        <option value="">La Plateforme / START</option>
+                        <option value="">Innovation Lab</option>
+                        <option value="">AWS re/Start</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Entretient">Souhaitez-vous passer un entretien préalable au test d'entrée ?</label>
+                    <select name="entretien" id="" required>
+                        <option value="" disabled selected hidden>Souhaitez-vous passer un entretien préalable au test
+                            d'entrée ?</option>
+                        <option value="probleme-compte">Oui</option>
+                        <option value="question-produit">Non</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Prenom"> Votre Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Azdine" required>
+                </div>
+                <div>
+                    <label for="Nom">Votre Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Zahi" required>
+                </div>
+                <div>
+                    <label for="email">Votre e-mail</label>
+                    <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                </div>
+                <div>
+                    <label for="telephone">Votre numéro de Téléphone</label>
+                    <input type="tel" id="telephone" name="telephone" placeholder="07XXXXXXXX" required>
+                </div>
+                <div>
+                    <label for="codepostal">Votre Code postal</label>
+                    <input type="text" formation" name="codepostal" placeholder="13..." required>
+                </div>
+                <div>
+                    <label for="Ville">Votre Ville</label>
+                    <input type="text" id="ville" name="ville" placeholder="Ville" required>
+                </div>
+                <div>
+                    <label for="connaissance">Comment nous avez-vous connu ?</label>
+                    <input type="text" id="connaissance" name="connaissance" placeholder="connaissance" required>
+                </div>
+                <div>
+                    <label for="etude">Quel est votre niveau d'étude ?</label>
+                    <input type="text" id="etude" name="etude" placeholder="etude" required>
+                </div>
+                <div>
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                </div>
+                <div>
+                    <button id="button-jaune">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div id="resume-menu">
+             <div id="logo-socialmedia">
+                <img class="logo-blanc" src="images/Logo_LaPLateforme_footer.svg" alt="la plateforme_">
+                <div id="socialmedia">
+                    <a href="https://www.facebook.com/LaPlateformeIO" target="_blank" ><img class="logo-media" src="images/facebook.jpg" alt="facebook"></a>
+                    <a href="https://www.instagram.com/LaPlateformeIO/" target="_blank" ><img class="logo-media" src="images/instagram.jpg" alt="instagram"></a>
+                    <a href="https://www.linkedin.com/school/laplateformeio/" target="_blank" ><img class="logo-media" src="images/linkedin.jpg" alt="linkedin"></a>
+                    <a href="https://twitter.com/LaPlateformeIO" target="_blank" ><img class="logo-media" src="images/twitter.jpg" alt="twitter"></a>
+                    <a href="https://www.youtube.com/c/LaPlateformeIO" target="_blank" ><img class="logo-media" src="images/youtube.jpg" alt="youtube"></a>
+                </div>
+
+             </div> 
+             <div id="lien-nav" >
+                <h1>La Plateforme</h1>
+                <a href="#bio">Accueil</a>
+                <a href="#bio">Qui sommes-nous ?</a>
+                <a href="#bio">Notre brochure</a>
+                <a href="#bio">Ils parlent de nous</a>
+                <a href="#bio">Annuaire des Plateformeurs</a>
+                <a href="#bio">Alumni des Plateformeurs</a>
+                <a href="#bio">Taxe d'apprentissage</a>
+             </div>
+
+             <div id="les-formations">
+                <h1>Les formations</h1>
+                <a href="aws-restart.html">AWS-Restart</a>
+                <a href="#bio">Coding School</a>
+                <a href="#bio">Bachelor IT</a>
+                <a href="#bio">Artificial Intelligence School</a>
+                <a href="#bio">Cyber Security School</a>
+
+             </div>
+             <div id="informations">
+                <h1>Informations</h1>
+                <p>8 rue d’hozier, 13002 Marseille</p>
+                <p>Tel : 04.84.89.43.69</p>
+                <button>Contact</button>
+
+             </div>
+        </div>
+        <div id="copyright">
+            <p>© La Plateforme. Tous droits réservés. | Mentions légales | Cookies | Référent handicap : Jessica Soriano</p>
+        </div>
+    </footer>
+</body>
+
+
+</body>
