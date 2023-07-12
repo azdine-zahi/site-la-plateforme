@@ -1,4 +1,5 @@
 La Plateforme
+
 Ce projet est un site web pour La Plateforme, le campus méditerranéen du numérique. Il présente des informations sur les formations, les services et les témoignages 
 liés à La Plateforme.
 
@@ -9,9 +10,9 @@ Le projet est structuré de la manière suivante :
 * Les images utilisées dans le site sont stockées dans le dossier images.
   
 Comment exécuter le projet localement
-Clonez ce dépôt de code sur votre machine locale.
-Assurez-vous d'avoir un navigateur web installé.
-Ouvrez le fichier accueil.html dans votre navigateur.
+1. Clonez ce dépôt de code sur votre machine locale.
+2. Assurez-vous d'avoir un navigateur web installé.
+3. Ouvrez le fichier accueil.html dans votre navigateur.
 
 Contenu du site
 Le site est divisé en plusieurs sections, dont voici un aperçu :
